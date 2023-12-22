@@ -18,7 +18,7 @@ class BasePage:
 
     def check_display_status_of_element(self, locator_name,locator_value):
         element = self.get_element(locator_name,locator_value)
-        element.is_displayed()
+        return element.is_displayed()
 
     def retrieve_element_text(self, locator_name,locator_value):
         element = self.get_element(locator_name,locator_value)

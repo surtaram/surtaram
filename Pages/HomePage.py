@@ -10,7 +10,8 @@ from Pages.SearchPage import SearchPage
 class Homepage(BasePage):
 
     def __init__(self, driver):
-        super().__init__(driver)
+        super().__init__()
+        self.driver = driver
 
     search_box_field_xpath = "//input[@name='search']"
     search_button_xpath = "//button[@class='btn btn-default btn-lg']"

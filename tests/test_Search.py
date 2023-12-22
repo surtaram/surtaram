@@ -6,12 +6,11 @@ from Pages.SearchPage import SearchPage
 from tests.Basetest import BaseTest
 
 
-
 class Test_search(BaseTest):
 
     def test_search_for_a_valid_product(self):
         home_page = Homepage(self.driver)
-        search_page=home_page.search_for_a_product("HP")
+        search_page = home_page.search_for_a_product("HP")
         assert search_page.display_status_of_valid_product()
 
     def test_search_for_a_invalid_product(self):

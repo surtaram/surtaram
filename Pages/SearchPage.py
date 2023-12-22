@@ -7,8 +7,8 @@ from Pages.BasePage import BasePage
 class SearchPage(BasePage):
 
     def __init__(self, driver):
-        super().__int__(driver)
-        # self.driver = driver
+        super().__int__()
+        self.driver = driver
 
     search_result_Link_text = "HP LP3065"
     invalid_search_result_xpath = "//input[@type='button']//following-sibling::p"
