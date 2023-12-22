@@ -12,3 +12,8 @@ practices:-
  etc.
 
 
+allure reporst :-
+pytest --alluredir=./Reports
+
+allure serve ".path of reports folder" --> its will automatically open allure reports in the browser
+
