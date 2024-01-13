@@ -1,0 +1,44 @@
+1st section :- setting :- under this we need to library
+2nd section :- varibale :- we define variable which is commanly used in every section
+3rd section :- we define test case
+4th section :- inside this we will define own keywords
+
+All these section we can create in single robot file or we can create in multiple file depending on project
+ need .
+***Not every section is mandatory.
+
+
+Working with web elements:--
+
+Text box/input box
+    -visibility status
+    -enabled status
+    -provide value
+    -clearing value
+
+    -Verify title of the page
+
+Working with radio and check box
+
+Working with drop down and list boxes
+    --> Three method we have to handle drop down
+        1. select from list by label
+        2. select from list by index
+        3.select from list by value
+
+Wait and TimeOuts   :- selenium speed ,selenium timeout ,implicit wait,sleep
+
+selenium speed ---> set selenium speed --> This is applicable for across all element
+selenium timeout ---> wait until page contains by default time is 5 sec
+implicit wait--> set selenium implicit wait --> element by default wait for 0 sec but when when element not
+found , then it will till element found within mentioned times
+
+
+How to close single and multiple browser :--
+
+this keyword will use :-  close browser and close all browser
+
+How to handle alerts?
+
+How to handle Frames?
+

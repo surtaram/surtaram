@@ -1,0 +1,15 @@
+Robot framework :-
+pip3 install robotframework
+pip3 show robotframework
+
+selenium :-
+pip3 install robot framework
+
+testcase ---> .robot
+excel ---> .xls
+notepad --> .txt
+python.py
+
+Reference :- https://robotframework.org/?tab=libraries#resources
+
+
