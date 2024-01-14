@@ -1,120 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.9.6 on darwin)" generated="2024-01-13T22:47:15.548264" rpa="false" schemaversion="5">
-<suite id="s1" name="Speedtest" source="/Users/surtaram/PycharmProjects/Pytestseleniumpom/robotframeworkpom/testcases/speedtest.robot">
-<test id="s1-t1" name="RegTest" line="16">
+<robot generator="Robot 7.0 (Python 3.9.6 on darwin)" generated="2024-01-14T22:32:35.430898" rpa="false" schemaversion="5">
+<suite id="s1" name="Userkeywords" source="/Users/surtaram/PycharmProjects/Pytestseleniumpom/robotframeworkpom/testcases/Userkeywords.robot">
+<test id="s1-t1" name="TC1" line="8">
+<kw name="LaunchBrowser" owner="Resourses">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-01-13T22:47:16.087161" level="INFO">Opening browser 'chrome' to base url 'https://demo.guru99.com/test/newtours/register.php'.</msg>
-<arg>${url}</arg>
-<arg>${browser}</arg>
+<msg time="2024-01-14T22:32:36.039483" level="INFO">Opening browser 'chrome' to base url 'https://demo.guru99.com/test/newtours/login.php'.</msg>
+<arg>${appurl}</arg>
+<arg>${appbrowser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-01-13T22:47:16.086499" elapsed="8.226482"/>
+<status status="PASS" start="2024-01-14T22:32:36.038994" elapsed="81.781274"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2024-01-13T22:47:24.316750" elapsed="0.383053"/>
+<status status="PASS" start="2024-01-14T22:33:57.827370" elapsed="0.156211"/>
 </kw>
-<kw name="Set Selenium Speed" owner="SeleniumLibrary">
-<arg>2</arg>
-<doc>Sets the delay that is waited after each Selenium command.</doc>
-<status status="PASS" start="2024-01-13T22:47:24.700402" elapsed="0.001413"/>
+<kw name="Get Title" owner="SeleniumLibrary">
+<msg time="2024-01-14T22:33:57.999144" level="INFO">${title} = Sign-on: Mercury Tours</msg>
+<var>${title}</var>
+<doc>Returns the title of the current page.</doc>
+<status status="PASS" start="2024-01-14T22:33:57.983970" elapsed="0.015263"/>
 </kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-13T22:47:24.705783" level="INFO">Typing text 'Ramesh' into text field 'xpath://input[@name='firstName']'.</msg>
-<arg>xpath://input[@name='firstName']</arg>
-<arg>Ramesh</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-13T22:47:24.703166" elapsed="6.262207"/>
+<return>
+<value>${title}</value>
+<status status="PASS" start="2024-01-14T22:33:57.999406" elapsed="0.000198"/>
+</return>
+<msg time="2024-01-14T22:33:57.999950" level="INFO">${application_Title} = Sign-on: Mercury Tours</msg>
+<var>${application_Title}</var>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<status status="PASS" start="2024-01-14T22:32:36.036182" elapsed="81.963821"/>
 </kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-13T22:47:30.966850" level="INFO">Typing text 'kumar' into text field 'xpath://input[@name='lastName']'.</msg>
-<arg>xpath://input[@name='lastName']</arg>
-<arg>kumar</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-13T22:47:30.966098" elapsed="6.181081"/>
-</kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-13T22:47:37.148151" level="INFO">Typing text '78376473672' into text field 'xpath://input[@name='phone']'.</msg>
-<arg>xpath://input[@name='phone']</arg>
-<arg>78376473672</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-13T22:47:37.147756" elapsed="6.212718"/>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${application_Title}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-01-14T22:33:58.000551" elapsed="0.000488"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-13T22:47:43.362323" level="INFO">Typing text 'test@gmail.com' into text field 'xpath://input[@name='userName']'.</msg>
+<msg time="2024-01-14T22:33:58.003227" level="INFO">Typing text 'mercury' into text field 'xpath://input[@name='userName']'.</msg>
 <arg>xpath://input[@name='userName']</arg>
-<arg>${email}</arg>
+<arg>mercury</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-13T22:47:43.361220" elapsed="6.238761"/>
+<status status="PASS" start="2024-01-14T22:33:58.001513" elapsed="0.388680"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-13T22:47:49.602390" level="INFO">Typing text 'xyz' into text field 'xpath://input[@name='address1']'.</msg>
-<arg>xpath://input[@name='address1']</arg>
-<arg>xyz</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-13T22:47:49.601277" elapsed="6.180524"/>
-</kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-13T22:47:55.782646" level="INFO">Typing text 'jaipur' into text field 'xpath://input[@name='city']'.</msg>
-<arg>xpath://input[@name='city']</arg>
-<arg>jaipur</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-13T22:47:55.782293" elapsed="6.159189"/>
-</kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-13T22:48:01.946854" level="INFO">Typing text 'raj' into text field 'xpath://input[@name='state']'.</msg>
-<arg>xpath://input[@name='state']</arg>
-<arg>raj</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-13T22:48:01.942489" elapsed="6.199749"/>
-</kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-13T22:48:08.145553" level="INFO">Typing text '345023' into text field 'xpath://input[@name='postalCode']'.</msg>
-<arg>xpath://input[@name='postalCode']</arg>
-<arg>345023</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-13T22:48:08.144858" elapsed="6.200008"/>
-</kw>
-<kw name="Select From List By Label" owner="SeleniumLibrary">
-<msg time="2024-01-13T22:48:14.347207" level="INFO">Selecting options from selection list 'country' by label AMERICAN SAMOA.</msg>
-<arg>country</arg>
-<arg>AMERICAN SAMOA</arg>
-<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
-<status status="PASS" start="2024-01-13T22:48:14.346389" elapsed="14.184837"/>
-</kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-13T22:48:28.532765" level="INFO">Typing text 'test@gmail.com' into text field 'xpath://input[@name='email']'.</msg>
-<arg>xpath://input[@name='email']</arg>
-<arg>${email}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-13T22:48:28.531975" elapsed="6.225389"/>
-</kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-13T22:48:34.758795" level="INFO">Typing text 'test@123' into text field 'xpath://input[@name='password']'.</msg>
+<msg time="2024-01-14T22:33:58.394339" level="INFO">Typing text 'mercury' into text field 'xpath://input[@name='password']'.</msg>
 <arg>xpath://input[@name='password']</arg>
-<arg>${password}</arg>
+<arg>mercury</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-13T22:48:34.757990" elapsed="6.163066"/>
+<status status="PASS" start="2024-01-14T22:33:58.392714" elapsed="0.299123"/>
 </kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-13T22:48:40.922817" level="INFO">Typing text 'test@123' into text field 'xpath://input[@name='confirmPassword']'.</msg>
-<arg>xpath://input[@name='confirmPassword']</arg>
-<arg>${password}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-13T22:48:40.921701" elapsed="6.169604"/>
-</kw>
-<kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-01-13T22:48:47.092908" level="INFO">Clicking element 'xpath://input[@name='submit']'.</msg>
-<arg>xpath://input[@name='submit']</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-13T22:48:47.092207" elapsed="6.246021"/>
-</kw>
-<kw name="Close Browser" owner="SeleniumLibrary">
-<doc>Closes the current browser.</doc>
-<status status="PASS" start="2024-01-13T22:48:53.339120" elapsed="2.148614"/>
-</kw>
-<status status="PASS" start="2024-01-13T22:47:16.085054" elapsed="99.403582"/>
+<status status="PASS" start="2024-01-14T22:32:36.033901" elapsed="82.658684"/>
 </test>
-<status status="PASS" start="2024-01-13T22:47:15.551104" elapsed="99.941607"/>
+<status status="PASS" start="2024-01-14T22:32:35.435794" elapsed="83.259292"/>
 </suite>
 <statistics>
 <total>
@@ -123,9 +60,10 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Speedtest">Speedtest</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Userkeywords">Userkeywords</stat>
 </suite>
 </statistics>
 <errors>
+<msg time="2024-01-14T22:32:36.027654" level="WARN">Error in file '/Users/surtaram/PycharmProjects/Pytestseleniumpom/robotframeworkpom/Resourses/Resourses.robot' on line 14: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
 </errors>
 </robot>

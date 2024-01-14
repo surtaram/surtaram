@@ -42,4 +42,82 @@ How to handle alerts?
 
 How to handle Frames?
 
-dad
+How to handle Tabbed windows?
+How to handle Browser windows?
+
+Captured element screen shot
+This keyword we use :-
+    --->  Capture Element Screenshot
+Captured Page screen shot
+This keyword we use:--
+    --->    Capture Page Screenshot
+
+Mouse actions:--
+ ---> Right click
+Keyword:-- Open Context Menu
+ ---> Double click
+Keyword:- Double Click Element
+ ---> Drag and Drop
+
+User defined Keywords
+ --> User defined  keyword without Arguments
+ --> User defined keyword with arguments
+ --> User defined keyword with arguments & Return value
+
+Scrolling page using JavaScriptExecutor
+ ---> Scrolling page till it reach a pixel number
+ ---> Scrolling page till find element on page
+ ---> Scroll page till the bottom
+
+
+Interview question :-
+1. Can you explain how you approach designing test cases in Robot Framework for web applications?
+ Ans:- I start by thoroughly understanding the requirements and user stories. Then, I identify
+ test scenarios and break them down into smaller, manageable test cases. I structure these test
+ cases using Robot Framework's keyword-driven approach, ensuring each step is represented by a
+ reusable keyword. This approach enhances maintainability and reusability in the test suite.
+
+2.What factors do you consider when creating a test strategy for a web application using
+ Robot Framework?
+ Ans:- Factors considered include application complexity, critical features, supported browsers,
+  and deployment environments. I also take into account the testing scope (regression, smoke, or
+   exploratory testing), and any specific testing needs like performance or security testing.
+
+3. How do you prioritize test cases in a given sprint or release cycle?
+Ans:- Test case prioritization involves considering business priorities,
+ critical functionalities, and areas prone to changes. I collaborate with
+ the development team to identify high-risk areas. High-priority test cases
+ cover critical paths and functionalities that have a direct impact on end-users.
+
+4. Explain the concept of keyword-driven testing in Robot Framework.
+        How do you organize and manage keywords in your test suite?
+5. Can you provide an example of a complex test scenario and how you
+would break it down into reusable keywords?
+6. Discuss the advantages and challenges of using keyword-driven testing in a web testing context.
+7. How do you handle dynamic elements on a web page in your Robot Framework test scripts?
+8.Can you provide examples of strategies you've used to deal with
+dynamic IDs or changing attributes in your test automation?
+9. Share your experience in handling AJAX calls and asynchronous behavior during web testing.
+10.Explain how you implement data-driven testing in Robot Framework for web applications.
+11.What are the different ways to manage test data, and which approach do you prefer?
+12. Have you encountered scenarios where data variations impact your test scripts,
+and how did you address them?
+13.How do you integrate Robot Framework with other tools or frameworks
+for a comprehensive testing solution?
+14. Have you worked with any Continuous Integration (CI) tools, and how did you
+incorporate Robot Framework into the CI/CD pipeline?
+15.Share an example where you used Robot Framework in conjunction with
+ a browser automation tool or a test management tool.
+16. How do you handle multiple browser windows or pop-ups in Robot Framework?
+17.Can you provide an example of a test scenario involving interactions
+ with multiple browser instances?
+18. Discuss any challenges you've faced in managing browser windows during your automation testing.
+19.What are some best practices you follow while writing Robot Framework
+ test scripts for web applications?
+20. How do you ensure code quality and maintainability in your test automation suite?
+21. Share your experience with code reviews and how they have contributed to
+ improving the overall test automation framework.
+22.Explain your approach to troubleshooting and debugging failed test cases in Robot Framework.
+23.Have you utilized any specific logging or reporting mechanisms for better issue identification?
+24.Share an example of a challenging bug you encountered and how you went about resolving it in
+ your test scripts.
