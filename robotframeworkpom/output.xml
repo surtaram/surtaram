@@ -1,69 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.9.6 on darwin)" generated="2024-01-14T22:32:35.430898" rpa="false" schemaversion="5">
-<suite id="s1" name="Userkeywords" source="/Users/surtaram/PycharmProjects/Pytestseleniumpom/robotframeworkpom/testcases/Userkeywords.robot">
-<test id="s1-t1" name="TC1" line="8">
-<kw name="LaunchBrowser" owner="Resourses">
+<robot generator="Robot 7.0 (Python 3.9.6 on darwin)" generated="2024-01-17T10:40:07.518714" rpa="false" schemaversion="5">
+<suite id="s1" name="Scrollingpage" source="/Users/surtaram/PycharmProjects/Pytestseleniumpom/robotframeworkpom/testcases/scrollingpage.robot">
+<test id="s1-t1" name="ScrollingTest" line="7">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-01-14T22:32:36.039483" level="INFO">Opening browser 'chrome' to base url 'https://demo.guru99.com/test/newtours/login.php'.</msg>
-<arg>${appurl}</arg>
-<arg>${appbrowser}</arg>
+<msg time="2024-01-17T10:40:07.754677" level="INFO">Opening browser 'chrome' to base url 'https://www.countries-ofthe-world.com/flags-of-the-world.html'.</msg>
+<arg>https://www.countries-ofthe-world.com/flags-of-the-world.html</arg>
+<arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-01-14T22:32:36.038994" elapsed="81.781274"/>
+<status status="PASS" start="2024-01-17T10:40:07.754242" elapsed="3.899295"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2024-01-14T22:33:57.827370" elapsed="0.156211"/>
+<status status="PASS" start="2024-01-17T10:40:11.654520" elapsed="0.384261"/>
 </kw>
-<kw name="Get Title" owner="SeleniumLibrary">
-<msg time="2024-01-14T22:33:57.999144" level="INFO">${title} = Sign-on: Mercury Tours</msg>
-<var>${title}</var>
-<doc>Returns the title of the current page.</doc>
-<status status="PASS" start="2024-01-14T22:33:57.983970" elapsed="0.015263"/>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-01-17T10:40:14.041516" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-01-17T10:40:12.039426" elapsed="2.002388"/>
 </kw>
-<return>
-<value>${title}</value>
-<status status="PASS" start="2024-01-14T22:33:57.999406" elapsed="0.000198"/>
-</return>
-<msg time="2024-01-14T22:33:57.999950" level="INFO">${application_Title} = Sign-on: Mercury Tours</msg>
-<var>${application_Title}</var>
-<arg>${url}</arg>
-<arg>${browser}</arg>
-<status status="PASS" start="2024-01-14T22:32:36.036182" elapsed="81.963821"/>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2024-01-17T10:40:14.043941" level="INFO">Executing JavaScript:
+window.scrollTo(0,1500)
+Without any arguments.</msg>
+<arg>window.scrollTo(0,1500)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2024-01-17T10:40:14.042530" elapsed="0.021580"/>
 </kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>${application_Title}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-01-14T22:33:58.000551" elapsed="0.000488"/>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-01-17T10:40:16.065430" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-01-17T10:40:14.064540" elapsed="2.001295"/>
 </kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-14T22:33:58.003227" level="INFO">Typing text 'mercury' into text field 'xpath://input[@name='userName']'.</msg>
-<arg>xpath://input[@name='userName']</arg>
-<arg>mercury</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-14T22:33:58.001513" elapsed="0.388680"/>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-01-17T10:40:16.066735" elapsed="0.220708"/>
 </kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-14T22:33:58.394339" level="INFO">Typing text 'mercury' into text field 'xpath://input[@name='password']'.</msg>
-<arg>xpath://input[@name='password']</arg>
-<arg>mercury</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-14T22:33:58.392714" elapsed="0.299123"/>
-</kw>
-<status status="PASS" start="2024-01-14T22:32:36.033901" elapsed="82.658684"/>
+<status status="PASS" start="2024-01-17T10:40:07.752271" elapsed="8.535868"/>
 </test>
-<status status="PASS" start="2024-01-14T22:32:35.435794" elapsed="83.259292"/>
+<test id="s1-t2" name="ScrollPageTillelementfound" line="15">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-01-17T10:40:16.291736" level="INFO">Opening browser 'chrome' to base url 'https://www.countries-ofthe-world.com/flags-of-the-world.html'.</msg>
+<arg>https://www.countries-ofthe-world.com/flags-of-the-world.html</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-01-17T10:40:16.290714" elapsed="4.603648"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-01-17T10:40:20.895315" elapsed="0.367340"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-01-17T10:40:23.266210" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-01-17T10:40:21.263323" elapsed="2.003215"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>xpath://*[@id="content"]/div[2]/div[2]/table[1]/tbody/tr[86]/td[2]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2024-01-17T10:40:23.267288" elapsed="0.304499"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-01-17T10:40:25.573058" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-01-17T10:40:23.572466" elapsed="2.000875"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-01-17T10:40:25.574001" elapsed="0.237095"/>
+</kw>
+<status status="PASS" start="2024-01-17T10:40:16.288933" elapsed="9.522626"/>
+</test>
+<test id="s1-t3" name="ScrollTillBottom" line="22">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-01-17T10:40:25.814392" level="INFO">Opening browser 'chrome' to base url 'https://www.countries-ofthe-world.com/flags-of-the-world.html'.</msg>
+<arg>https://www.countries-ofthe-world.com/flags-of-the-world.html</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-01-17T10:40:25.814001" elapsed="4.068522"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-01-17T10:40:29.884023" elapsed="0.368133"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-01-17T10:40:32.255811" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-01-17T10:40:30.252842" elapsed="2.003335"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2024-01-17T10:40:32.258107" level="INFO">Executing JavaScript:
+window.scrollTo(0,document.body.scrollHeight)
+Without any arguments.</msg>
+<arg>window.scrollTo(0,document.body.scrollHeight)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2024-01-17T10:40:32.256884" elapsed="0.023365"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-01-17T10:40:34.283291" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-01-17T10:40:32.281143" elapsed="2.002593"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-01-17T10:40:34.284551" elapsed="0.222202"/>
+</kw>
+<status status="PASS" start="2024-01-17T10:40:25.812329" elapsed="8.695050"/>
+</test>
+<status status="PASS" start="2024-01-17T10:40:07.521671" elapsed="26.987400"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Userkeywords">Userkeywords</stat>
+<stat pass="3" fail="0" skip="0" id="s1" name="Scrollingpage">Scrollingpage</stat>
 </suite>
 </statistics>
 <errors>
-<msg time="2024-01-14T22:32:36.027654" level="WARN">Error in file '/Users/surtaram/PycharmProjects/Pytestseleniumpom/robotframeworkpom/Resourses/Resourses.robot' on line 14: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
 </errors>
 </robot>

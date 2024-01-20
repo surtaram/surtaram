@@ -66,8 +66,27 @@ User defined Keywords
 
 Scrolling page using JavaScriptExecutor
  ---> Scrolling page till it reach a pixel number
+ use "Execute Javascript" keyword and fundtion window.scrollTo(horizonal_pixel.vertical_scroll)
  ---> Scrolling page till find element on page
  ---> Scroll page till the bottom
+
+For loop in robot framework :-
+Count number link present on web page
+Extract all the links from page
+Working with HTML Table
+    - Count number of rows in table
+    - Count number of columns in table
+    - Get data from table
+    - Validation on table
+
+Data Driven testing :-
+    -Specify test data in the scripts
+    - Read test data from excel file (.xlsx)
+    - Read test data from csv file(.csv)
+
+Robotframework datadriver Library
+
+
 
 
 Interview question :-
