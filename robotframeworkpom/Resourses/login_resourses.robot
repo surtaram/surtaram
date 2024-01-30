@@ -4,7 +4,7 @@ Library     SeleniumLibrary
 
 
 *** Variables ***
-${URL}      https://demo.nopcommerce.com/
+${URL}      https://demo.nopcommerce.com/login?returnUrl=%2F
 ${browser}      chrome
 
 
@@ -18,8 +18,8 @@ close browsers
 Open Login Page
     Go To    ${URL}
 Input username
-    [Arguments]     ${usernmae}
-    Input Text    id:Email    ${usernmae}
+    [Arguments]     ${username}
+    Input Text    id:Email    ${username}
 Input pwd
     [Arguments]     ${password}
     Input Text    id:Password     ${password}

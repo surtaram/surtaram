@@ -86,6 +86,38 @@ Data Driven testing :-
 
 Robotframework datadriver Library
 
+Test Template :- in this included multiple step that need to execute in every test case multiple times
+Suite setup --> its include only one times
+Suite teardown ---> its excute only one times at the end of the test  case
+
+Test setup :--- will run before every test case
+Test Teardown -- will run after every test case
+Suite setup -- will run before test suite
+suite teardown -- will run after test suite
+
+Database testing in robot framework :-
+
+    - In data base testing ,we will validate data is properly inserted or not ,or weather is table is c
+    created properly or not
+    - Data is updating or not ,and numbers of rows are there or not ,these things we will validate in
+    part of data base testing
+In robot framework we will use two library --> DatabaseLibrary and pymysql library
+
+
+Grouping Tests using Tags
+
+    command :-  robot --include=sanity  testcases/Tagging.robot
+
+Page Object Model :-- A design pattern
+
+
+
+
+
+
+
+
+
 
 
 
