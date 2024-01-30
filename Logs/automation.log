@@ -1,0 +1,65 @@
+01/30/2024 11:14:16 AM: INFO: ====== WebDriver manager ======
+01/30/2024 11:14:16 AM: INFO: Get LATEST chromedriver version for google-chrome
+01/30/2024 11:14:17 AM: INFO: Get LATEST chromedriver version for google-chrome
+01/30/2024 11:14:17 AM: INFO: Driver [/Users/surtaram/.wdm/drivers/chromedriver/mac64/121.0.6167.85/chromedriver-mac-x64/chromedriver] found in cache
+01/30/2024 11:14:20 AM: INFO: *************Test_001_Login*******************
+01/30/2024 11:14:20 AM: INFO: ***********verifying home page title***************
+01/30/2024 11:14:20 AM: INFO: *************Home page title test case passed**************
+01/30/2024 11:14:20 AM: INFO: ====== WebDriver manager ======
+01/30/2024 11:14:20 AM: INFO: Get LATEST chromedriver version for google-chrome
+01/30/2024 11:14:21 AM: INFO: Get LATEST chromedriver version for google-chrome
+01/30/2024 11:14:21 AM: INFO: Driver [/Users/surtaram/.wdm/drivers/chromedriver/mac64/121.0.6167.85/chromedriver-mac-x64/chromedriver] found in cache
+01/30/2024 11:14:24 AM: INFO: ****************verifying login test*****************
+01/30/2024 11:14:26 AM: INFO: ***************Login test case passed****************
+01/30/2024 11:15:41 AM: INFO: ====== WebDriver manager ======
+01/30/2024 11:15:41 AM: INFO: ====== WebDriver manager ======
+01/30/2024 11:15:41 AM: INFO: Get LATEST chromedriver version for google-chrome
+01/30/2024 11:15:41 AM: INFO: Get LATEST chromedriver version for google-chrome
+01/30/2024 11:15:41 AM: INFO: Get LATEST chromedriver version for google-chrome
+01/30/2024 11:15:41 AM: INFO: Get LATEST chromedriver version for google-chrome
+01/30/2024 11:15:42 AM: INFO: Driver [/Users/surtaram/.wdm/drivers/chromedriver/mac64/121.0.6167.85/chromedriver-mac-x64/chromedriver] found in cache
+01/30/2024 11:15:42 AM: INFO: Driver [/Users/surtaram/.wdm/drivers/chromedriver/mac64/121.0.6167.85/chromedriver-mac-x64/chromedriver] found in cache
+01/30/2024 11:15:44 AM: INFO: *************Test_002_Teacher_info*******************
+01/30/2024 11:15:44 AM: INFO: *************Test_002_Teacher_info*******************
+01/30/2024 11:15:44 AM: INFO: ***********test_teacher_attendance***************
+01/30/2024 11:15:44 AM: INFO: ***********test_teacher_attendance***************
+01/30/2024 11:15:44 AM: INFO: ****************verifying login test*****************
+01/30/2024 11:15:44 AM: INFO: ****************verifying login test*****************
+01/30/2024 11:15:46 AM: INFO: ***************Login test case passed****************
+01/30/2024 11:15:46 AM: INFO: ***************Login test case passed****************
+01/30/2024 11:17:25 AM: INFO: ====== WebDriver manager ======
+01/30/2024 11:17:25 AM: INFO: ====== WebDriver manager ======
+01/30/2024 11:17:25 AM: INFO: Get LATEST chromedriver version for google-chrome
+01/30/2024 11:17:25 AM: INFO: Get LATEST chromedriver version for google-chrome
+01/30/2024 11:17:26 AM: INFO: Get LATEST chromedriver version for google-chrome
+01/30/2024 11:17:26 AM: INFO: Get LATEST chromedriver version for google-chrome
+01/30/2024 11:17:26 AM: INFO: Driver [/Users/surtaram/.wdm/drivers/chromedriver/mac64/121.0.6167.85/chromedriver-mac-x64/chromedriver] found in cache
+01/30/2024 11:17:26 AM: INFO: Driver [/Users/surtaram/.wdm/drivers/chromedriver/mac64/121.0.6167.85/chromedriver-mac-x64/chromedriver] found in cache
+01/30/2024 11:17:28 AM: INFO: *************Test_002_Teacher_info*******************
+01/30/2024 11:17:28 AM: INFO: *************Test_002_Teacher_info*******************
+01/30/2024 11:17:28 AM: INFO: ***********test_teacher_attendance***************
+01/30/2024 11:17:28 AM: INFO: ***********test_teacher_attendance***************
+01/30/2024 11:17:29 AM: INFO: ****************verifying login test*****************
+01/30/2024 11:17:29 AM: INFO: ****************verifying login test*****************
+01/30/2024 11:17:30 AM: INFO: ***************Login test case passed****************
+01/30/2024 11:17:30 AM: INFO: ***************Login test case passed****************
+01/30/2024 11:33:19 AM: INFO: ====== WebDriver manager ======
+01/30/2024 11:33:19 AM: INFO: ====== WebDriver manager ======
+01/30/2024 11:33:20 AM: INFO: Get LATEST chromedriver version for google-chrome
+01/30/2024 11:33:20 AM: INFO: Get LATEST chromedriver version for google-chrome
+01/30/2024 11:33:20 AM: INFO: Get LATEST chromedriver version for google-chrome
+01/30/2024 11:33:20 AM: INFO: Get LATEST chromedriver version for google-chrome
+01/30/2024 11:33:20 AM: INFO: Driver [/Users/surtaram/.wdm/drivers/chromedriver/mac64/121.0.6167.85/chromedriver-mac-x64/chromedriver] found in cache
+01/30/2024 11:33:20 AM: INFO: Driver [/Users/surtaram/.wdm/drivers/chromedriver/mac64/121.0.6167.85/chromedriver-mac-x64/chromedriver] found in cache
+01/30/2024 11:34:39 AM: INFO: ====== WebDriver manager ======
+01/30/2024 11:34:39 AM: INFO: ====== WebDriver manager ======
+01/30/2024 11:34:40 AM: INFO: Get LATEST chromedriver version for google-chrome
+01/30/2024 11:34:40 AM: INFO: Get LATEST chromedriver version for google-chrome
+01/30/2024 11:34:40 AM: INFO: Get LATEST chromedriver version for google-chrome
+01/30/2024 11:34:40 AM: INFO: Get LATEST chromedriver version for google-chrome
+01/30/2024 11:34:40 AM: INFO: Driver [/Users/surtaram/.wdm/drivers/chromedriver/mac64/121.0.6167.85/chromedriver-mac-x64/chromedriver] found in cache
+01/30/2024 11:34:40 AM: INFO: Driver [/Users/surtaram/.wdm/drivers/chromedriver/mac64/121.0.6167.85/chromedriver-mac-x64/chromedriver] found in cache
+01/30/2024 11:34:42 AM: INFO: ****************verifying login test*****************
+01/30/2024 11:34:42 AM: INFO: ****************verifying login test*****************
+01/30/2024 11:34:45 AM: INFO: ***************Login test case passed****************
+01/30/2024 11:34:45 AM: INFO: ***************Login test case passed****************
