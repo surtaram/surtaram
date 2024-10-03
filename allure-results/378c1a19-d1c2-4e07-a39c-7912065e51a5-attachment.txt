@@ -1,0 +1,10 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): simple-books-api.glitch.me:443
+DEBUG:urllib3.connectionpool:https://simple-books-api.glitch.me:443 "POST /api-clients/ HTTP/11" 201 82
+INFO:conftest:Starting a new test.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): simple-books-api.glitch.me:443
+DEBUG:urllib3.connectionpool:https://simple-books-api.glitch.me:443 "POST /orders HTTP/11" 201 50
+INFO:conftest:New order created with ID: Jp-HEnnmyQZLCrKJ9r2e5
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): simple-books-api.glitch.me:443
+DEBUG:urllib3.connectionpool:https://simple-books-api.glitch.me:443 "DELETE /orders/Jp-HEnnmyQZLCrKJ9r2e5 HTTP/11" 204 0
+INFO:conftest:Successfully deleted order
+INFO:conftest:Finished the test.

@@ -1,0 +1,10 @@
+INFO:conftest:Starting a new test.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): simple-books-api.glitch.me:443
+DEBUG:urllib3.connectionpool:https://simple-books-api.glitch.me:443 "POST /orders HTTP/11" 201 50
+INFO:conftest:New order created with ID: mr0Ni1jV9Nm7WvzsSCcAj
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): simple-books-api.glitch.me:443
+DEBUG:urllib3.connectionpool:https://simple-books-api.glitch.me:443 "PATCH /orders/mr0Ni1jV9Nm7WvzsSCcAj HTTP/11" 204 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): simple-books-api.glitch.me:443
+DEBUG:urllib3.connectionpool:https://simple-books-api.glitch.me:443 "GET /orders/mr0Ni1jV9Nm7WvzsSCcAj HTTP/11" 200 200
+INFO:conftest:Successfully retrieved updated order: {'id': 'mr0Ni1jV9Nm7WvzsSCcAj', 'bookId': 1, 'customerName': 'automation user updated', 'createdBy': '6da547055d4296961bf1a522bbac681e5431762b32b5b0db441c62fc35843530', 'quantity': 1, 'timestamp': 1726891829001}
+INFO:conftest:Finished the test.

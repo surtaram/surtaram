@@ -1,0 +1,17 @@
+{
+  "dev": {
+    "base_url": "https://simple-books-api.glitch.me"
+  },
+  "staging": {
+    "base_url": "https://simple-books-api.glitch.me"
+  },
+  "uat": {
+    "base_url": "https://simple-books-api.glitch.me"
+  },
+  "prod": {
+    "base_url": "https://simple-books-api.glitch.me"
+  },
+  "environment": {
+    "env": "staging"
+  }
+}

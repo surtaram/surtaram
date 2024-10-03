@@ -1,0 +1,12 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): simple-books-api.glitch.me:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://simple-books-api.glitch.me:443 "POST /api-clients/ HTTP/11" 201 82
+INFO     conftest:conftest.py:81 Starting a new test.
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): simple-books-api.glitch.me:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://simple-books-api.glitch.me:443 "POST /orders HTTP/11" 201 50
+INFO     conftest:test_patch_orders.py:29 New order created with ID: l3fhve09ZAek415x_Z579
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): simple-books-api.glitch.me:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://simple-books-api.glitch.me:443 "PATCH /orders/l3fhve09ZAek415x_Z579 HTTP/11" 204 0
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): simple-books-api.glitch.me:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://simple-books-api.glitch.me:443 "GET /orders/l3fhve09ZAek415x_Z579 HTTP/11" 200 200
+INFO     conftest:test_patch_orders.py:51 Successfully retrieved updated order: {'id': 'l3fhve09ZAek415x_Z579', 'bookId': 1, 'customerName': 'automation user updated', 'createdBy': '7647471ba25908f1a9af0dae08bf672a9209f4b3591d443b36c28d0aa13c3b5d', 'quantity': 1, 'timestamp': 1726894242687}
+INFO     conftest:conftest.py:83 Finished the test.

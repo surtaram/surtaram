@@ -1,0 +1,6 @@
+INFO:conftest:Starting a new test.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): simple-books-api.glitch.me:443
+DEBUG:urllib3.connectionpool:https://simple-books-api.glitch.me:443 "POST /orders HTTP/11" 201 50
+INFO:conftest:Successfully submitted new order with ID: iHfZh16xEalf3-EJWfPoR
+INFO:conftest:Successfully retrieved order: {'created': True, 'orderId': 'iHfZh16xEalf3-EJWfPoR'}
+INFO:conftest:Finished the test.

@@ -1,0 +1,10 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): simple-books-api.glitch.me:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://simple-books-api.glitch.me:443 "POST /api-clients/ HTTP/11" 201 82
+INFO     conftest:conftest.py:81 Starting a new test.
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): simple-books-api.glitch.me:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://simple-books-api.glitch.me:443 "POST /orders HTTP/11" 201 50
+INFO     conftest:test_delete_orders.py:28 New order created with ID: qx5zFMmNs8kZoTlklHILM
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): simple-books-api.glitch.me:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://simple-books-api.glitch.me:443 "DELETE /orders/qx5zFMmNs8kZoTlklHILM HTTP/11" 204 0
+INFO     conftest:test_delete_orders.py:40 Successfully deleted order
+INFO     conftest:conftest.py:83 Finished the test.

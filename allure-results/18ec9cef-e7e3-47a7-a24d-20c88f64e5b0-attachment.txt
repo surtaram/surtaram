@@ -1,0 +1,14 @@
+INFO     conftest:conftest.py:81 Starting a new test.
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): simple-books-api.glitch.me:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://simple-books-api.glitch.me:443 "POST /orders HTTP/11" 201 50
+INFO     conftest:test_workflow.py:32 Created order with ID: clMoSP5tn4CmJYWHbqirt
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): simple-books-api.glitch.me:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://simple-books-api.glitch.me:443 "PATCH /orders/clMoSP5tn4CmJYWHbqirt HTTP/11" 204 0
+INFO     conftest:test_workflow.py:37 Updated order with ID: clMoSP5tn4CmJYWHbqirt
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): simple-books-api.glitch.me:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://simple-books-api.glitch.me:443 "GET /orders/clMoSP5tn4CmJYWHbqirt HTTP/11" 200 200
+INFO     conftest:test_workflow.py:44 Retrieved updated order: {'id': 'clMoSP5tn4CmJYWHbqirt', 'bookId': 1, 'customerName': 'automation user updated', 'createdBy': 'e46cc4822a5211d43d96c5af9dd9a2ab86fa93adb0051c0bf1b07035c758ecee', 'quantity': 1, 'timestamp': 1726896831398}
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): simple-books-api.glitch.me:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://simple-books-api.glitch.me:443 "DELETE /orders/clMoSP5tn4CmJYWHbqirt HTTP/11" 204 0
+INFO     conftest:test_workflow.py:49 Deleted order with ID: clMoSP5tn4CmJYWHbqirt
+INFO     conftest:conftest.py:83 Finished the test.
