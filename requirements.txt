@@ -1,0 +1,12 @@
+requests~=2.31.0
+openpyxl~=3.1.2
+numpy~=1.26.2
+behave==1.2.6
+pytest==7.1.2
+pytest-html==3.1.1
+pytest-xdist==3.4.0
+pytest-bdd==4.1.0
+allure-pytest==2.8.42
+openpyxl==3.1.2
+
+#pip3 install -r requirements.txt

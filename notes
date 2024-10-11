@@ -1,0 +1,267 @@
+Variable :- A variable is a name given to a memory location in a program .
+name="xyz"
+age=23
+price=24.55
+
+
+
+String in python :-
+
+String :- Collection of charactor . A string is sequence of unicode charactor wrapped inside single ,double
+,or triple quotes.
+
+String in python is an array(collection) of byte representing unicode charactor.
+Square bracket can be used to access element of the string
+Each charactor of string can be individually accessed using index.
+indices :- 0,1,2,3,4,5,6 -->forward direction
+-1,-2,-3,-4,-5 --> backward direction
+
+
+
+
+You cannot changed individual letters of string in place by assignment because string is immutable .
+
+
+
+
+Traversing string :-
+Traversing refer to iterating through the elements of a string.One charactor at a time.Using the indexes,
+You can traverse string charactor by charactor.
+
+Reverse string:-
+we can do by slicing  or loop.
+
+String operators:-
+String operators in python (+,*,in,not)
+Basic operators:-
+String concatenation operators(+):-To concatenate,or combine two or more string you can use the
++ operator
+
+String replication operators:-
+2*"h"=hh
+
+Membership operator:- in or not
+"s" in "surta" ==> ouput =true
+"s" not in "surta" ==> output =false
+
+Comparison operator:- < ,<=,>,>=,==,!=
+
+charactor  "0 to 9 " , value =48 -57
+charactor "A to Z" , value =65-90
+charactor "a to z" , value =97 -122
+
+String slices :-
+
+=> name[start:end]
+String Function :-
+1. len() --> Return length of string
+2.capitalize -> convert first charactor to upper case
+3. count() --> Return number of times specified value occurs in string
+4. find() --> Searching the string for specified value return the position of where it was found
+5. index() --> Searches the string for a specified value and returns the position of where it was found
+6. isalnum() --> Returns true if all characters in the string are alphanumeric.
+7. isalpha() --> Returns true if all characters in the string are in the alphabet.
+8. isdigit() --> Returns true if all characters in the string are digits.
+9. islower() --> Return true if all characters in the string in lower case
+10. isspace() --> Return true if all characters in the string are whitespace
+11. isupper() ->Return true if all characters in the string in upper case
+12. lower() --> Convert string into lower case
+13. upper() --> Convert string into upper case
+14. istrip() -->Return a left trim version of string
+15. rstrip() --> Return a right trim version of string
+16. strip() --> Return trimmed version of string
+17. startwith() --> Returns true if string start with specified value
+18. endwith() --> Returns true if string end with specified value
+19. title() --> Converts the first character of each word in upper case
+20. istitle() --> Returns true of the string follow the rules of title
+21. replace() --> Returns string where a specified value is replaced with a value
+22. join() --> Joins the element of an iterable to the end of the string
+23. split() --> Split the string at the specified seperator and returns a list
+24. partition() --> Returns a tuple where the string is parted into three parts
+
+
+title vs capitalize :-
+
+title :- convert in capital letter in each word first letter of the sentence
+capitalize :- only convert first letter in sentence in capital letter
+
+
+LCS :-Longest comment subsequence
+
+
+
+
+
+
+
+
+
+Concept:-
+String Compression:-
+String: "aabcccccaaa"
+Question1: Write a function to compress the string "aabcccccaaa", resulting in "a2b1c5a3".
+
+String Rotation:-
+Strings: "waterbottle", "erbottlewat"
+Question2: Write a function to check if the string "waterbottle" is a rotation of "erbottlewat"
+
+
+Count Vowels and Consonants:
+String: "hello"
+Question3: Write a function to count the number of vowels and consonants in the string "hello".
+
+Remove Duplicates:-
+String: "hello"
+Question4: Write a function to remove duplicate characters from the string "hello".
+
+
+String Permutations:-
+String: "abc"
+Question5: Write a function to generate all permutations of the string "abc".
+
+Substring Search:-
+String: "hello"
+Substring: "ell"
+Question6: Write a function to implement substring search to check if the substring "ell" is present in the string "hello".
+
+Longest Common Subsequence:
+Strings: "ABCDGH", "AEDFHR"
+Question7: Write a function to find the longest common subsequence between the strings "ABCDGH" and "AEDFHR".
+
+
+#list manipulations and list comprehension
+
+List:- In python ,a list is a kind of containers that collections of any kind of values.
+
+A list is a mutable data type which means any value from the list can be changed.
+for changed the value ,python does not create new list
+
+List is a sequence like a string and a tuple except that list is mutable whereas string and
+tuple are immutable.
+
+List represented by Square bracket [].
+List Creation :-
+If we want to pass value to a list in numeric from then we have to write following function:-
+eval(input())
+
+Accessing list :-
+Similarities between a list and string :-
+List is sequence like a string
+List also has index of each its element
+Like string ,list also has 2 index one if from forward indexing (0,1,2,3.... to n-1
+and second is backward indexing (from -n to -1)
+In a list ,value can be accessed like strings.
+len() function is used to get the length of a list
+L[i] will return the value exists at i index.
+L[i:j] will return a new list with the value from i index to j index excluding j index .
+
+Difference between list and string :-
+string is immutabe and whereas list is mutable
+
+
+List operations:-
+Main operations that can be performed on lists are joining list ,replicating list and list slicing .
+
+Making true copy of a list :-
+We can create a true copy of a list by using following three way:-
+    - By using list() methods
+    - By using the copy() methods
+    - By storing all elements of the list using list slice in its copy .
+List functions  and methods:-
+
+len() ->Its return  length of its argument list
+list() -> it returns a list created from the passed argument
+index() -> its returns index of element
+extend() -> Add element of a list ( or any iterable) , to the end of the current list
+append() --> Adds an element at the end of the list
+insert() --> Adds an element at the specified position
+pop() --> Removed an element at the specified position
+remove() --> Removed the first item with specified value
+clear() --> Removes all the elements from the lists
+count() -->Returns the number of element with the specified position
+reverse() --> Reverses the order of list
+sort() --> sorts the list
+sorted() --> The sorted() function returns a sorted list of the specified position iterable objects.
+max(list) --> return max value of the list which is persent in the list
+min(list) --> return min value from the list
+sum(list) --> return sum of list
+
+
+Python list comprehension :-
+
+
+Dict and set in python concept:-
+
+Dict are used to store the data in key:value pairs.
+They are unordered ,mutable and dont allow duplicate keys
+
+mydict.keys() --> Return all keys
+mydict.values() --> Return all value
+mydict.items() --> Return all key value pairs as tuple
+mydict.get('key') -> Return key according to value
+mydict.update(newdict) -->
+
+
+
+
+Set in python :-
+Set is the collection of unordered items.
+Each element in the set must be unique and immutable
+
+set methods:-
+set.add("el") -->adds an element
+set.remove('el')  -->remove the element
+set.clear()  --> empty set
+set.pop() --> removes a random value
+
+set.union(s2) --> Combines both set values and returns new
+set.intersection(set2) --> combine common value and return new
+
+
+map() and filter() function :-
+
+
+Scope in python :-
+
+Scope of a variable is the block of code in the entire program where the variable is declared ,used and
+can be modified .
+
+Decorator is a function that takes another function as argument and return a function
+
+
+Oops concepts:-
+To map with real world scenarios ,we started objects in the code.This is called Oops.
+Class and objects in oops:-
+Class is a blueprint for creating objects.
+class is collection of two things data (attribute) and methods.
+
+
+self :- This is the parameter is a reference to the current instance of the  class and its used
+to access variable that belong to the class.
+
+
+Methods:- Methods are functions that belong to objects.
+Static methods:- Method that does not use self parameter (work at class level)
+
+
+
+Decorator :- Decorator allow us to wrap another function in order to extend the behaviour of the wrapped function
+without permanently modifying it.
+
+
+
+Abstraction:-
+Hiding the implementation details of a class and only showing the essential features to the users
+
+Encapsulation:-
+Wrapping data and functions into a single unit (objects)
+Private attribute and methods:-
+    - Private attribute nd methods are meants to be used only within the class and are not accssible
+    from outside the class
+
+super() methods:- Is used to access methods of the parent class .
+class methods:- A class methods is bound to the class and receives the class as an implicit first argument.
+Note -Static method cant access or modify class state and generally for utility .
+
+Overloading :- When same operator is allowed to have different meaning according to the context
+Polymorphism :- Operator overloading
